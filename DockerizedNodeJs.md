@@ -1,6 +1,10 @@
 Here are the steps to build and run your Dockerized Node.js application:
 
-1. **Navigate to your project directory**:
+1. **Clone repository** 
+   ```bash
+   git clone https://github.com/choiruzain-latrobe/lab-2.git
+   ```
+2. **Navigate to your project directory**:
    ```bash
    cd fortune-cookie
    ```
@@ -24,4 +28,3 @@ Here are the steps to build and run your Dockerized Node.js application:
    http://localhost:3000
    ```
    You should see the message "Hello World" displayed in your browser.
-5. 
