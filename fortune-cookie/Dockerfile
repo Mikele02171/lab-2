@@ -24,7 +24,7 @@ ENV NODE_PATH=/deps/node_modules \
     PATH=/deps/node_modules/.bin:$PATH
 
 # Copy the application code
-COPY . /app
+COPY .. /app
 
 # Change ownership to the 'node' user
 RUN chown -R node:node /app /deps
