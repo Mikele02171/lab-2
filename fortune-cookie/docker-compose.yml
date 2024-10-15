@@ -1,0 +1,10 @@
+version: '3.8'  # Specify the Docker Compose file format version
+
+services:  # Ensure 'services' is followed by a colon
+  fortune-cookie:  # This is the service name
+    build:
+      context: .  # Build context is the current directory
+    ports:
+      - "3001:3000"  # Map port 3001 on the host to port 3000 in the container
+    environment:
+      NODE_ENV: development  # Optionally set the environment variable
